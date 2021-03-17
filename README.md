@@ -12,4 +12,4 @@ This repository is for implementing all the learned skills like:
 
 If you want to view the project, please check the link below.
 
- https://luzperdomo92.github.io/landinfy-page/index.html
+ https://luzperdomo92.github.io/landinfy-page/

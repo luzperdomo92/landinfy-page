@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="brand">
         <a href="#" class="brand__link">
@@ -37,7 +37,7 @@
       <!-- End Navbar -->
     </header>
 
-    <main class="main-content">
+    <main class="main">
       <!-- Presentation Section-->
       <section class="presentation">
         <h1 class="presentation__title">Track your product sales from anywhere, anytime.</h1>
@@ -71,85 +71,87 @@
         </ul>
       </section>
       <!-- End Presentation Section-->
-      <!-- Feature Section -->
-      <section>
-        <h2>Discover the key features</h2>
-        <section>
-          <div>
-            <p></p>
-            <img src="" alt="">
-          </div>
-          <div>
-            <p></p>
-            <img src="" alt="">
-          </div>
-          <div>
-            <p></p>
-            <img src="" alt="">
-          </div>
-          <div>
-            <p></p>
-            <img src="" alt="">
-          </div>
-          <div>
-            <p></p>
-            <img src="" alt="">
-          </div>
-          <div>
-            <p></p>
-            <img src="" alt="">
-          </div>
-          <div>
-            <p></p>
-            <img src="" alt="">
-          </div>
-          <div>
-            <p></p>
-            <img src="" alt="">
-          </div>
-        </section>
-        <!-- section  -->
-        <section>
-          <div>
-            <p></p>
-            <img src="" alt="">
-          </div>
-        </section>
-      </section>
-      <!-- End Feature Section -->
-      <!-- Testimonial Article -->
-      <article>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci velit aliquid, atque labore porro minima quos tenetur eum esse nemo. Dolor consequatur nesciunt voluptates dolorem error sit rem obcaecati.</p>
-        <p>falta la etiqueta de nombre y posiscion</p>
-        <figure><img src="" alt="person"></figure>
-        <figure><img src="" alt="count-matters"></figure>
-      </article>
-      <!-- End Testimonial Article -->
-      <!-- Product Article -->
-      <article>
-        <section>
-          <img src="" alt="redondo con imagenes">
-        </section>
-        <section>
-          <p>consultant</p>
-          <h3>Headline</h3>
-          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Fugit error laborum debitis enim unde, obcaecati voluptate, impedit illo molestiae natus sequi laudantium placeat! Totam dolore ducimus tempore optio qui, doloribus?</p>
-          <span>get started flecha</span>
-        </section>
-      </article>
-      <!-- End Product Article -->
-      <!-- Donwload section -->
-      <section>
-        <article>
-          <p>Loking to desing your new starup website? or looking to redisign your website landing page? Get started Landify UIkit!</p>
-          <buttom>Download now</buttom>
-          <img src="" alt="hexagono img">
-          <img src="" alt="hexagono img">
-          <img src="" alt="hexagono img">
-        </article>
-      </section>
-      <!--  End Donwload section -->
     </main>
+    <!-- Feature Section -->
+    <section class="features">
+      <section class="features__section">
+        <figure class="features__bg">
+          <img src="img/svg/feature-circle.svg" class="features__img" alt="">
+        </figure>
+        <section class="features__content">
+          <h2 class="features__title">Discover the key features</h2>
+          <section class="features__element">
+            <div class="feature" class="feature">
+              <h5 class="feature__title">Mobile Responsive</h5>
+              <img src="img/svg/f1.svg" class="feature__img" alt="">
+            </div>
+            <div class="feature">
+              <h5 class="feature__title">User<br>Friendly</h5>
+              <img src="img/svg/f2.svg" class="feature__img" alt="">
+            </div>
+            <div class="feature">
+              <h5 class="feature__title">Well Organised Layers</h5>
+              <img src="img/svg/f3.svg" class="feature__img" alt="">
+            </div>
+            <div class="feature">
+              <h5 class="feature__title">Easily Custumisable</h5>
+              <img src="img/svg/f4.svg" class="feature__img" alt="">
+            </div>
+            <div class="feature">
+              <h5 class="feature__title">Better Components</h5>
+              <img src="img/svg/f5.svg" class="feature__img" alt="">
+            </div>
+            <div class="feature">
+              <h5 class="feature__title">Multiple<br>Blocks</h5>
+              <img src="img/svg/f6.svg" class="feature__img" alt="">
+            </div>
+            <div class="feature">
+              <h5 class="feature__title">Robust<br>Workflow</h5>
+              <img src="img/svg/f7.svg" class="feature__img" alt="">
+            </div>
+            <div class="feature">
+              <h5 class="feature__title">Mobile Responsibe</h5>
+              <img src="img/svg/f8.svg" class="feature__img" alt="">
+            </div>
+          </section>
+        </section>
+      </section>
+    </section>
+    <!-- End Feature Section -->
+    <!-- Testimonial Article -->
+    <article>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci velit aliquid, atque labore porro minima quos tenetur eum esse nemo. Dolor consequatur nesciunt voluptates dolorem error sit rem obcaecati.</p>
+      <p>falta la etiqueta de nombre y posiscion</p>
+      <figure>
+        <img src="" alt="person">
+      </figure>
+      <figure><img src="" alt="count-matters"></figure>
+    </article>
+    <!-- End Testimonial Article -->
+    <!-- Product Article -->
+    <article>
+      <section>
+        <img src="" alt="redondo con imagenes">
+      </section>
+      <section>
+        <p>consultant</p>
+        <h3>Headline</h3>
+        <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Fugit error laborum debitis enim unde, obcaecati voluptate, impedit illo molestiae natus sequi laudantium placeat! Totam dolore ducimus tempore optio qui, doloribus?</p>
+        <span>get started flecha</span>
+      </section>
+    </article>
+    <!-- End Product Article -->
+    <!-- Donwload section -->
+    <section>
+      <article>
+        <p>Loking to desing your new starup website? or looking to redisign your website landing page? Get started Landify UIkit!</p>
+        <buttom>Download now</buttom>
+        <img src="" alt="hexagono img">
+        <img src="" alt="hexagono img">
+        <img src="" alt="hexagono img">
+      </article>
+    </section>
+      <!--  End Donwload section -->
     <footer class="footer">
       <section>
         <section>

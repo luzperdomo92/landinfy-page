@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Landify Page</title>
+    <link rel="stylesheet" href="img/fontawesome/css/all.min.css">
     <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,15 +12,16 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body class="body">
+    <!-- header -->
     <header class="header">
-      <div class="brand">
+      <div class="brand brand--flex">
         <a href="#" class="brand__link">
           <img src="img/svg/logo.svg" alt="logo">
           <img src="img/svg/landify.svg" alt="landify">
         </a>
       </div>
       <!-- Navbar -->
-      <nav class="nav">
+      <nav class="nav nav--flex">
         <ul class="nav__list">
           <li class="nav__item"><a href="#" class="nav__link">About</a></li>
           <li class="nav__item"><a href="#" class="nav__link">Products</a></li>
@@ -28,14 +30,14 @@
           <li class="nav__item"><a href="#" class="nav__link">Jobs</a></li>
           <li class="nav__item"><a href="#" class="nav__link">More</a></li>
         </ul>
-        <div class="logo-store">
-          <img src="img/play-store.png" class="logo-store__img" alt="google play Store">
-          <img src="img/app-store.png" class="logo-store__img" alt="App Store">
-        </div>
-
       </nav>
       <!-- End Navbar -->
+      <div class="logo-store logo-store--flex">
+        <a href="#"><i class="fab fa-google-play fab--hide"></i><img src="img/play-store.png" class="logo-store__img logo-store__img--hide" alt="google play Store"></a>
+        <a href="#"><i class="fab fa-app-store-ios fab--hide"></i><img src="img/app-store.png" class="logo-store__img logo-store__img--hide" alt="App Store"></a>
+      </div>
     </header>
+    <!-- End header -->
 
     <main class="main">
       <!-- Presentation Section-->
@@ -71,10 +73,8 @@
         </ul>
       </section>
       <!-- End Presentation Section-->
-    </main>
-    <!-- Feature Section -->
-    <section class="features">
-      <section class="features__section">
+      <!-- Feature Section -->
+      <section class="features">
         <figure class="features__bg">
           <img src="img/svg/feature-circle.svg" class="features__img" alt="">
         </figure>
@@ -116,90 +116,91 @@
           </section>
         </section>
       </section>
-    </section>
-    <!-- End Feature Section -->
-    <!-- Testimonial Article -->
-    <article>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci velit aliquid, atque labore porro minima quos tenetur eum esse nemo. Dolor consequatur nesciunt voluptates dolorem error sit rem obcaecati.</p>
-      <p>falta la etiqueta de nombre y posiscion</p>
-      <figure>
-        <img src="" alt="person">
-      </figure>
-      <figure><img src="" alt="count-matters"></figure>
-    </article>
-    <!-- End Testimonial Article -->
-    <!-- Product Article -->
-    <article>
-      <section>
-        <img src="" alt="redondo con imagenes">
-      </section>
-      <section>
-        <p>consultant</p>
-        <h3>Headline</h3>
-        <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Fugit error laborum debitis enim unde, obcaecati voluptate, impedit illo molestiae natus sequi laudantium placeat! Totam dolore ducimus tempore optio qui, doloribus?</p>
-        <span>get started flecha</span>
-      </section>
-    </article>
-    <!-- End Product Article -->
-    <!-- Donwload section -->
-    <section>
-      <article>
-        <p>Loking to desing your new starup website? or looking to redisign your website landing page? Get started Landify UIkit!</p>
-        <buttom>Download now</buttom>
-        <img src="" alt="hexagono img">
-        <img src="" alt="hexagono img">
-        <img src="" alt="hexagono img">
+      <!-- End Feature Section -->
+      <!-- Testimonial Article -->
+      <article class="testimonial">
+        <p class="textimonial__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci velit aliquid, atque labore porro minima quos tenetur eum esse nemo. Dolor consequatur nesciunt voluptates dolorem error sit rem obcaecati.</p>
+        <p class="testimonial__name">falta la etiqueta de nombre y posiscion</p>
+        <p class="testimonial__position">falta la etiqueta de nombre y posiscion</p>
+        <figure class="testimonial__figure">
+          <img src="" class="testimonial__img" alt="person">
+        </figure>
       </article>
-    </section>
-      <!--  End Donwload section -->
-    <footer class="footer">
-      <section>
+      <!-- End Testimonial Article -->
+      <!-- Product Article -->
+      <article>
         <section>
-          <div>
-            <h5>Company</h5>
-            <ul>
-              <li>Abaout Us</li>
-              <li>Blog</li>
-              <li>Carees</li>
-              <li>Contac Us</li>
-            </ul>
-          </div>
-
-          <div>
-            <h5>Support</h5>
-            <ul>
-              <li>Help Center</li>
-              <li>Safely Center</li>
-              <li>Comunity Guideline</li>
-            </ul>
-          </div>
-
-          <div>
-            <h5>Legal</h5>
-            <ul>
-              <li>Cookies Policy</li>
-              <li>Privacy Policy</li>
-              <li>Terms of Service</li>
-              <li>Law Enforcement</li>
-            </ul>
-          </div>
-          <div>
-            <h5>Instal App</h5>
-            <img src="" alt="">
-            <img src="" alt="">
-          </div>
+          <img src="" alt="redondo con imagenes">
         </section>
-      </section>
-      <hr>
+        <section>
+          <p>consultant</p>
+          <h3>Headline</h3>
+          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Fugit error laborum debitis enim unde, obcaecati voluptate, impedit illo molestiae natus sequi laudantium placeat! Totam dolore ducimus tempore optio qui, doloribus?</p>
+          <span>get started flecha</span>
+        </section>
+      </article>
+      <!-- End Product Article -->
+      <!-- Donwload section -->
       <section>
-        <p>2021 Landify UI kit. All rights reserved</p>
-        <ul>
-          <li><a href=""><img src="" alt="instagram"></a></li>
-          <li><a href=""><img src="" alt="no se"></a></li>
-          <li><a href=""><img src="" alt="Twitter"></a></li>
-          <li><a href=""><img src="" alt="youtube"></a></li>
-        </ul>
+        <article>
+          <p>Loking to desing your new starup website? or looking to redisign your website landing page? Get started Landify UIkit!</p>
+          <buttom>Download now</buttom>
+          <img src="" alt="hexagono img">
+          <img src="" alt="hexagono img">
+          <img src="" alt="hexagono img">
+        </article>
       </section>
+        <!--  End Donwload section -->
+      <footer class="footer">
+        <i class="fab fa-app-store-ios"></i>
+        <section>
+          <section>
+            <div>
+              <h5>Company</h5>
+              <ul>
+                <li>Abaout Us</li>
+                <li>Blog</li>
+                <li>Carees</li>
+                <li>Contac Us</li>
+              </ul>
+            </div>
+
+            <div>
+              <h5>Support</h5>
+              <ul>
+                <li>Help Center</li>
+                <li>Safely Center</li>
+                <li>Comunity Guideline</li>
+              </ul>
+            </div>
+
+            <div>
+              <h5>Legal</h5>
+              <ul>
+                <li>Cookies Policy</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Law Enforcement</li>
+              </ul>
+            </div>
+            <div>
+              <h5>Instal App</h5>
+              <img src="" alt="">
+              <img src="" alt="">
+            </div>
+          </section>
+        </section>
+        <hr>
+        <section>
+          <p>2021 Landify UI kit. All rights reserved</p>
+          <ul>
+            <li><a href=""><img src="" alt="instagram"></a></li>
+            <li><a href=""><img src="" alt="no se"></a></li>
+            <li><a href=""><img src="" alt="Twitter"></a></li>
+            <li><a href=""><img src="" alt="youtube"></a></li>
+          </ul>
+        </section>
+      </main>
     </footer>
     <script src="js/app.js"></script>
   </body>

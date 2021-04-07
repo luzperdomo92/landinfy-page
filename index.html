@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landify Page</title>
     <link rel="stylesheet" href="img/fontawesome/css/all.min.css">
     <link rel="icon" href="img/logo.png">
@@ -11,137 +11,146 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body class="body">
-    <!-- header -->
-    <header class="header">
-      <div class="brand brand--flex">
-        <a href="#" class="brand__link">
-          <img src="img/svg/logo.svg" alt="logo">
-          <img src="img/svg/landify.svg" alt="landify">
-        </a>
-      </div>
-      <!-- Navbar -->
-      <nav class="nav nav--flex">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Products</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Jobs</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">More</a></li>
-        </ul>
-      </nav>
-      <!-- End Navbar -->
-      <div class="logo-store logo-store--flex">
-        <a href="#"><i class="fab fa-google-play fab--hide"></i><img src="img/play-store.png" class="logo-store__img logo-store__img--hide" alt="google play Store"></a>
-        <a href="#"><i class="fab fa-app-store-ios fab--hide"></i><img src="img/app-store.png" class="logo-store__img logo-store__img--hide" alt="App Store"></a>
-      </div>
-    </header>
-    <!-- End header -->
+  <body>
+    <div class="body">
+      <!-- header -->
+      <header class="header">
+        <section class="header-content inner-padding">
+          <div class="brand brand--flex">
+            <a href="#" class="brand__link">
+              <img src="img/svg/logo.svg" alt="logo">
+              <img src="img/svg/landify.svg" alt="landify">
+            </a>
+          </div>
+        <!-- Navbar -->
+          <nav class="nav nav--flex">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Products</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Jobs</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">More</a></li>
+            </ul>
+          </nav>
+          <!-- End Navbar -->
+          <div class="logo-store logo-store--flex">
+            <a href="#"><i class="fab fa-google-play fab--hide"></i><img src="img/play-store.png" class="logo-store__img logo-store__img--hide" alt="google play Store"></a>
+            <a href="#"><i class="fab fa-app-store-ios fab--hide"></i><img src="img/app-store.png" class="logo-store__img logo-store__img--hide" alt="App Store"></a>
+          </div>
+        </section>
+      </header>
+      <!-- End header -->
 
-    <main class="main">
-      <!-- Presentation Section-->
-      <section class="presentation">
-        <h1 class="presentation__title">Track your product sales from anywhere, anytime.</h1>
-        <a href="#" class="button">Start selling</a>
-        <figure class="presentation__figure">
-          <img src="img/svg/main-circle.svg" class="presentation__bg" alt="purple-circle">
-          <img src="img/svg/phone.svg" class="presentation__image" alt="phone">
-        </figure>
-      </section>
+      <article class="main inner-padding">
+        <!-- Presentation Section-->
+        <section class="presentation">
+          <h1 class="presentation__title">Track your product sales from anywhere, anytime.</h1>
+          <a href="#" class="button">Start selling</a>
+          <figure class="presentation__figure">
+            <img src="img/svg/main-circle.svg" class="presentation__bg" alt="purple-circle">
+            <img src="img/svg/phone.svg" class="presentation__image" alt="phone">
+          </figure>
+        </section>
 
-      <section class="brands">
-        <ul class="brands__list">
-          <li class="brands__items">
-            <img src="img/svg/airbnb.svg" class="brands__image" alt="airbnb">
-          </li>
-          <li class="brands__items">
-            <img src="img/svg/hubspot.svg" class="brands__image" alt="HubSpot">
-          </li>
-          <li class="brands__items">
-            <img src="img/svg/google.svg" class="brands__image" alt="Google">
-          </li>
-          <li class="brands__items">
-            <img src="img/svg/microsoft.svg" class="brands__image" alt="Microsoft">
-          </li>
-          <li class="brands__items">
-            <img src="img/svg/walmart.svg" class="brands__image" alt="Walmart">
-          </li>
-          <li class="brands__items">
-            <img src="img/svg/fedex.svg" class="brands__image" alt="FedEx">
-          </li>
-        </ul>
-      </section>
-      <!-- End Presentation Section-->
-      <!-- Feature Section -->
-      <section class="features">
-        <figure class="features__bg">
-          <img src="img/svg/feature-circle.svg" class="features__img" alt="">
-        </figure>
-        <section class="features__content">
-          <h2 class="features__title">Discover the key features</h2>
-          <section class="features__element">
-            <div class="feature" class="feature">
-              <h5 class="feature__title">Mobile Responsive</h5>
-              <img src="img/svg/f1.svg" class="feature__img" alt="">
-            </div>
-            <div class="feature">
-              <h5 class="feature__title">User<br>Friendly</h5>
-              <img src="img/svg/f2.svg" class="feature__img" alt="">
-            </div>
-            <div class="feature">
-              <h5 class="feature__title">Well Organised Layers</h5>
-              <img src="img/svg/f3.svg" class="feature__img" alt="">
-            </div>
-            <div class="feature">
-              <h5 class="feature__title">Easily Custumisable</h5>
-              <img src="img/svg/f4.svg" class="feature__img" alt="">
-            </div>
-            <div class="feature">
-              <h5 class="feature__title">Better Components</h5>
-              <img src="img/svg/f5.svg" class="feature__img" alt="">
-            </div>
-            <div class="feature">
-              <h5 class="feature__title">Multiple<br>Blocks</h5>
-              <img src="img/svg/f6.svg" class="feature__img" alt="">
-            </div>
-            <div class="feature">
-              <h5 class="feature__title">Robust<br>Workflow</h5>
-              <img src="img/svg/f7.svg" class="feature__img" alt="">
-            </div>
-            <div class="feature">
-              <h5 class="feature__title">Mobile Responsibe</h5>
-              <img src="img/svg/f8.svg" class="feature__img" alt="">
-            </div>
+        <section class="brands">
+          <ul class="brands__list margin-off">
+            <li class="brands__items">
+              <img src="img/svg/airbnb.svg" class="brands__image" alt="airbnb">
+            </li>
+            <li class="brands__items">
+              <img src="img/svg/hubspot.svg" class="brands__image" alt="HubSpot">
+            </li>
+            <li class="brands__items">
+              <img src="img/svg/google.svg" class="brands__image" alt="Google">
+            </li>
+            <li class="brands__items">
+              <img src="img/svg/microsoft.svg" class="brands__image" alt="Microsoft">
+            </li>
+            <li class="brands__items">
+              <img src="img/svg/walmart.svg" class="brands__image" alt="Walmart">
+            </li>
+            <li class="brands__items">
+              <img src="img/svg/fedex.svg" class="brands__image" alt="FedEx">
+            </li>
+          </ul>
+        </section>
+        <!-- End Presentation Section-->
+        <!-- Feature Section -->
+        <section class="features">
+          <figure class="features__bg margin-off">
+            <img src="img/svg/feature-circle.svg" class="features__img" alt="">
+          </figure>
+          <section class="features__content">
+            <h2 class="features__title margin-off">Discover the key features</h2>
+            <section class="features__element">
+              <div class="feature" class="feature">
+                <h5 class="feature__title">Mobile Responsive</h5>
+                <img src="img/svg/f1.svg" class="feature__img" alt="">
+              </div>
+              <div class="feature">
+                <h5 class="feature__title">User<br>Friendly</h5>
+                <img src="img/svg/f2.svg" class="feature__img" alt="">
+              </div>
+              <div class="feature">
+                <h5 class="feature__title">Well Organised Layers</h5>
+                <img src="img/svg/f3.svg" class="feature__img" alt="">
+              </div>
+              <div class="feature">
+                <h5 class="feature__title">Easily Custumisable</h5>
+                <img src="img/svg/f4.svg" class="feature__img" alt="">
+              </div>
+              <div class="feature">
+                <h5 class="feature__title">Better Components</h5>
+                <img src="img/svg/f5.svg" class="feature__img" alt="">
+              </div>
+              <div class="feature">
+                <h5 class="feature__title">Multiple<br>Blocks</h5>
+                <img src="img/svg/f6.svg" class="feature__img" alt="">
+              </div>
+              <div class="feature">
+                <h5 class="feature__title">Robust<br>Workflow</h5>
+                <img src="img/svg/f7.svg" class="feature__img" alt="">
+              </div>
+              <div class="feature">
+                <h5 class="feature__title">Mobile Responsibe</h5>
+                <img src="img/svg/f8.svg" class="feature__img" alt="">
+              </div>
+            </section>
           </section>
         </section>
-      </section>
       <!-- End Feature Section -->
+      </article>
       <!-- Testimonial Article -->
-      <article class="testimonial">
-        <p class="textimonial__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci velit aliquid, atque labore porro minima quos tenetur eum esse nemo. Dolor consequatur nesciunt voluptates dolorem error sit rem obcaecati.</p>
-        <p class="testimonial__name">falta la etiqueta de nombre y posiscion</p>
-        <p class="testimonial__position">falta la etiqueta de nombre y posiscion</p>
-        <figure class="testimonial__figure">
-          <img src="" class="testimonial__img" alt="person">
+      <article class="testimonial inner-padding">
+        <section class="testimonial__content">
+          <p class="testimonial__text margin-off">We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made    their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</p>
+          <p class="testimonial__name margin-off">Scarlett Johansson</p>
+          <p class="testimonial__position margin-off">CEO at Xion</p>
+          </section>
+        <figure class="testimonial__figure margin-off">
+          <img src="img/svg/testimonial.svg" class="testimonial__img" alt="person">
         </figure>
       </article>
       <!-- End Testimonial Article -->
       <!-- Product Article -->
-      <article>
-        <section>
-          <img src="" alt="redondo con imagenes">
-        </section>
-        <section>
-          <p>consultant</p>
-          <h3>Headline</h3>
-          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Fugit error laborum debitis enim unde, obcaecati voluptate, impedit illo molestiae natus sequi laudantium placeat! Totam dolore ducimus tempore optio qui, doloribus?</p>
-          <span>get started flecha</span>
+      <section class="stats">
+        
+      </section>
+      <article class="product inner-padding">
+        <figure class="product__img margin-off">
+          <img src="img/svg/creative.svg" alt="redondo con imagenes">
+        </figure>
+        <section class="product__content">
+          <p class="product__position">consultant</p>
+          <h3 class="product__title">Headline</h3>
+          <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
+          <a class="product__link" href="#">Get started <img src="img/svg/vector.svg" alt=""></a>
         </section>
       </article>
       <!-- End Product Article -->
       <!-- Donwload section -->
-      <section>
+      <section class="download">
         <article>
           <p>Loking to desing your new starup website? or looking to redisign your website landing page? Get started Landify UIkit!</p>
           <buttom>Download now</buttom>
@@ -152,56 +161,54 @@
       </section>
         <!--  End Donwload section -->
       <footer class="footer">
-        <i class="fab fa-app-store-ios"></i>
-        <section>
-          <section>
-            <div>
-              <h5>Company</h5>
-              <ul>
-                <li>Abaout Us</li>
-                <li>Blog</li>
-                <li>Carees</li>
-                <li>Contac Us</li>
+        <section class="footer-content">
+          <section class="about-us">
+            <div class="about-us__info">
+              <h5 class="about-us__title">Company</h5>
+              <ul class="about-us__elements">
+                <li class="about-us__item">Abaout Us</li>
+                <li class="about-us__item">Blog</li>
+                <li class="about-us__item">Carees</li>
+                <li class="about-us__item">Contac Us</li>
               </ul>
             </div>
 
-            <div>
-              <h5>Support</h5>
-              <ul>
-                <li>Help Center</li>
-                <li>Safely Center</li>
-                <li>Comunity Guideline</li>
+            <div class="about-us__info">
+              <h5 class="about-us__title">Support</h5>
+              <ul class="about-us__elements">
+                <li class="about-us__item">Help Center</li>
+                <li class="about-us__item">Safely Center</li>
+                <li class="about-us__item">Comunity Guideline</li>
               </ul>
             </div>
 
-            <div>
-              <h5>Legal</h5>
-              <ul>
-                <li>Cookies Policy</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
-                <li>Law Enforcement</li>
+            <div class="about-us__info">
+              <h5 class="about-us__title">Legal</h5>
+              <ul class="about-us__elements">
+                <li class="about-us__item">Cookies Policy</li>
+                <li class="about-us__item">Privacy Policy</li>
+                <li class="about-us__item">Terms of Service</li>
+                <li class="about-us__item">Law Enforcement</li>
               </ul>
             </div>
-            <div>
-              <h5>Instal App</h5>
-              <img src="" alt="">
-              <img src="" alt="">
+            <div class="about-us__info">
+              <h5 class="about-us__title">Instal App</h5>
+              <img class="about-us__img" src="" alt="">
+              <img class="about-us__img" src="" alt="">
             </div>
           </section>
+          <section class="social-foot">
+            <p class="social-foot__credits">2021 Landify UI kit. All rights reserved</p>
+            <figure class="social-foot__social">
+              <a class="social-foot__link" href=""></a>
+              <a class="social-foot__link" href=""></a>
+              <a class="social-foot__link" href=""></a>
+              <a class="social-foot__link" href=""></a>
+            </figure>
+          </section>
         </section>
-        <hr>
-        <section>
-          <p>2021 Landify UI kit. All rights reserved</p>
-          <ul>
-            <li><a href=""><img src="" alt="instagram"></a></li>
-            <li><a href=""><img src="" alt="no se"></a></li>
-            <li><a href=""><img src="" alt="Twitter"></a></li>
-            <li><a href=""><img src="" alt="youtube"></a></li>
-          </ul>
-        </section>
-      </main>
-    </footer>
+      </footer>
+    </div>
     <script src="js/app.js"></script>
   </body>
 </html>

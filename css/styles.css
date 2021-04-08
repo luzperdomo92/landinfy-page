@@ -258,7 +258,7 @@ body{
 .stats {
   width: 100%;
   height: 376px;
-  background-color: #8C30F5;
+  background-image: url(../img/svg/bgcounter.svg);
 }
 
 /*PRODUCT SECTION*/
@@ -327,41 +327,70 @@ body{
   background-color: #2EC5CE;
   display: flex;
   padding: 48px 0 48px 48px;
+  position: relative;
 }
 .download__content {
   width: 587px;
-  height: 148px;
+  height: 184px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid black;
 }
-
-
-
+.download__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #18191F;
+}
+.download__img {
+  position: absolute;
+}
+.img-1 {
+  top: 0;
+  right: 209px;
+}
+.img-2 {
+  bottom: 0;
+  right: 209px;
+}
+.img-3 {
+  top: 0;
+  right: 0;
+}
 
 /*FOOTER*/
 .footer {
-  padding: 0 10.3125em 0 10.3125em;
+  width: 100%;
   height: 393px;
   background-color: #0B0D17;
-  color: #fff;
   display: flex;
   flex-direction: column;
 }
 .about-us {
   display: flex;
+  width: 100%;
   height: 312px;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid white;
+}
+.about-us__info {
+  width: 255px;
+  border: 1px solid white;
 }
 .social-foot{
   border-top: 1px solid rgba(255, 255, 255, .1);
   display: flex;
-  height: 80px;
+  height: 81px;
   justify-content: space-between;
+  align-items: center;
 }
-
+.about-us__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F4F5F7
+}
 
 /*MODIFIERS*/
 .inner-padding {
@@ -374,6 +403,7 @@ body{
   background-color: #fff;
   color: #8C30F5;
 }
+
 /* MEDIA QUERYS*/
 
 

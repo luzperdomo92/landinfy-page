@@ -275,7 +275,46 @@ body{
   width: 100%;
   height: 376px;
   background-image: url(../img/svg/bgcounter.svg);
+  display: flex;
+  align-items: center;
+  z-index: -2;
 }
+.stats__content {
+  width: 100%;
+  height: 248px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.stats__header {
+  width: 730px;
+  height:104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stats__title{
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #fff;
+}
+.stats__sub-title {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+}
+.stats__count {
+  width: 100%;
+  height: 96px;
+  border: 1px solid yellow;
+}
+
+
+
 
 /*PRODUCT SECTION*/
 .product {
